@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		142C8542132F47180029EB85 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 142C8541132F47180029EB85 /* UIKit.framework */; };
+		142C8544132F47180029EB85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 142C8543132F47180029EB85 /* Foundation.framework */; };
+		142C8546132F47180029EB85 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 142C8545132F47180029EB85 /* CoreGraphics.framework */; };
+		142C854C132F47180029EB85 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 142C854A132F47180029EB85 /* InfoPlist.strings */; };
+		142C854F132F47180029EB85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 142C854E132F47180029EB85 /* main.m */; };
+		142C8552132F47180029EB85 /* sonsonQuartzDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 142C8551132F47180029EB85 /* sonsonQuartzDemoAppDelegate.m */; };
+		142C8555132F47180029EB85 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 142C8553132F47180029EB85 /* MainWindow.xib */; };
+		142C8558132F47180029EB85 /* sonsonQuartzDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 142C8557132F47180029EB85 /* sonsonQuartzDemoViewController.m */; };
+		142C855B132F47180029EB85 /* sonsonQuartzDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 142C8559132F47180029EB85 /* sonsonQuartzDemoViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		142C853D132F47170029EB85 /* sonsonQuartzDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sonsonQuartzDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		142C8541132F47180029EB85 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		142C8543132F47180029EB85 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		142C8545132F47180029EB85 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		142C8549132F47180029EB85 /* sonsonQuartzDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sonsonQuartzDemo-Info.plist"; sourceTree = "<group>"; };
+		142C854B132F47180029EB85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		142C854D132F47180029EB85 /* sonsonQuartzDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sonsonQuartzDemo-Prefix.pch"; sourceTree = "<group>"; };
+		142C854E132F47180029EB85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		142C8550132F47180029EB85 /* sonsonQuartzDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sonsonQuartzDemoAppDelegate.h; sourceTree = "<group>"; };
+		142C8551132F47180029EB85 /* sonsonQuartzDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sonsonQuartzDemoAppDelegate.m; sourceTree = "<group>"; };
+		142C8554132F47180029EB85 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		142C8556132F47180029EB85 /* sonsonQuartzDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sonsonQuartzDemoViewController.h; sourceTree = "<group>"; };
+		142C8557132F47180029EB85 /* sonsonQuartzDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sonsonQuartzDemoViewController.m; sourceTree = "<group>"; };
+		142C855A132F47180029EB85 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/sonsonQuartzDemoViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		142C853A132F47170029EB85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				142C8542132F47180029EB85 /* UIKit.framework in Frameworks */,
+				142C8544132F47180029EB85 /* Foundation.framework in Frameworks */,
+				142C8546132F47180029EB85 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		142C8532132F47170029EB85 = {
+			isa = PBXGroup;
+			children = (
+				142C8547132F47180029EB85 /* sonsonQuartzDemo */,
+				142C8540132F47180029EB85 /* Frameworks */,
+				142C853E132F47170029EB85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		142C853E132F47170029EB85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				142C853D132F47170029EB85 /* sonsonQuartzDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		142C8540132F47180029EB85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				142C8541132F47180029EB85 /* UIKit.framework */,
+				142C8543132F47180029EB85 /* Foundation.framework */,
+				142C8545132F47180029EB85 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		142C8547132F47180029EB85 /* sonsonQuartzDemo */ = {
+			isa = PBXGroup;
+			children = (
+				142C8550132F47180029EB85 /* sonsonQuartzDemoAppDelegate.h */,
+				142C8551132F47180029EB85 /* sonsonQuartzDemoAppDelegate.m */,
+				142C8553132F47180029EB85 /* MainWindow.xib */,
+				142C8556132F47180029EB85 /* sonsonQuartzDemoViewController.h */,
+				142C8557132F47180029EB85 /* sonsonQuartzDemoViewController.m */,
+				142C8559132F47180029EB85 /* sonsonQuartzDemoViewController.xib */,
+				142C8548132F47180029EB85 /* Supporting Files */,
+			);
+			path = sonsonQuartzDemo;
+			sourceTree = "<group>";
+		};
+		142C8548132F47180029EB85 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				142C8549132F47180029EB85 /* sonsonQuartzDemo-Info.plist */,
+				142C854A132F47180029EB85 /* InfoPlist.strings */,
+				142C854D132F47180029EB85 /* sonsonQuartzDemo-Prefix.pch */,
+				142C854E132F47180029EB85 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		142C853C132F47170029EB85 /* sonsonQuartzDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 142C855E132F47180029EB85 /* Build configuration list for PBXNativeTarget "sonsonQuartzDemo" */;
+			buildPhases = (
+				142C8539132F47170029EB85 /* Sources */,
+				142C853A132F47170029EB85 /* Frameworks */,
+				142C853B132F47170029EB85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sonsonQuartzDemo;
+			productName = sonsonQuartzDemo;
+			productReference = 142C853D132F47170029EB85 /* sonsonQuartzDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		142C8534132F47170029EB85 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 142C8537132F47170029EB85 /* Build configuration list for PBXProject "sonsonQuartzDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 142C8532132F47170029EB85;
+			productRefGroup = 142C853E132F47170029EB85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				142C853C132F47170029EB85 /* sonsonQuartzDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		142C853B132F47170029EB85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				142C854C132F47180029EB85 /* InfoPlist.strings in Resources */,
+				142C8555132F47180029EB85 /* MainWindow.xib in Resources */,
+				142C855B132F47180029EB85 /* sonsonQuartzDemoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		142C8539132F47170029EB85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				142C854F132F47180029EB85 /* main.m in Sources */,
+				142C8552132F47180029EB85 /* sonsonQuartzDemoAppDelegate.m in Sources */,
+				142C8558132F47180029EB85 /* sonsonQuartzDemoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		142C854A132F47180029EB85 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				142C854B132F47180029EB85 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		142C8553132F47180029EB85 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				142C8554132F47180029EB85 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		142C8559132F47180029EB85 /* sonsonQuartzDemoViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				142C855A132F47180029EB85 /* en */,
+			);
+			name = sonsonQuartzDemoViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		142C855C132F47180029EB85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		142C855D132F47180029EB85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		142C855F132F47180029EB85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sonsonQuartzDemo/sonsonQuartzDemo-Prefix.pch";
+				INFOPLIST_FILE = "sonsonQuartzDemo/sonsonQuartzDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		142C8560132F47180029EB85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sonsonQuartzDemo/sonsonQuartzDemo-Prefix.pch";
+				INFOPLIST_FILE = "sonsonQuartzDemo/sonsonQuartzDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		142C8537132F47170029EB85 /* Build configuration list for PBXProject "sonsonQuartzDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				142C855C132F47180029EB85 /* Debug */,
+				142C855D132F47180029EB85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		142C855E132F47180029EB85 /* Build configuration list for PBXNativeTarget "sonsonQuartzDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				142C855F132F47180029EB85 /* Debug */,
+				142C8560132F47180029EB85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 142C8534132F47170029EB85 /* Project object */;
+}
