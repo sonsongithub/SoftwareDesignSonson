@@ -3246,9 +3246,9 @@
 		<string>PrimaryDocumentVisibleCharacterRange</string>
 		<string>HideAllIssues</string>
 		<string>PrimaryDocumentSelectedCharacterRange</string>
-		<real>322219883.27700198</real>
-		<string>{216, 1660}</string>
-		<string>{365, 887}</string>
+		<real>322224012.46802002</real>
+		<string>{884, 2041}</string>
+		<string>{179, 0}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -3857,7 +3857,7 @@
 				<integer>339</integer>
 			</dict>
 			<key>NS.time</key>
-			<real>322219619.509884</real>
+			<real>322224007.41000301</real>
 		</dict>
 		<dict>
 			<key>$classes</key>
@@ -3868,7 +3868,7 @@
 			<key>$classname</key>
 			<string>NSDate</string>
 		</dict>
-		<string>Today at 18:26</string>
+		<string>Today at 19:40</string>
 		<integer>106</integer>
 		<dict>
 			<key>$class</key>
@@ -4202,7 +4202,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>551</integer>
+					<integer>549</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -4210,7 +4210,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>552</integer>
+					<integer>550</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -5278,15 +5278,15 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>532</integer>
+					<integer>530</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>540</integer>
+					<integer>538</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>541</integer>
+					<integer>539</integer>
 				</dict>
 			</array>
 		</dict>
@@ -5686,7 +5686,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>530</integer>
+					<integer>528</integer>
 				</dict>
 			</array>
 		</dict>
@@ -5756,11 +5756,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>522</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>526</integer>
+					<integer>521</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -5768,11 +5764,15 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>527</integer>
+					<integer>515</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>528</integer>
+					<integer>525</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>526</integer>
 				</dict>
 			</array>
 		</dict>
@@ -5881,22 +5881,13 @@
 			<key>documentURL</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>521</integer>
+				<integer>261</integer>
 			</dict>
 			<key>timestamp</key>
 			<dict>
 				<key>CF$UID</key>
 				<integer>0</integer>
 			</dict>
-		</dict>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>45</integer>
-			</dict>
-			<key>NS.string</key>
-			<string>file://localhost/Users/sonson/code/SoftwareDesignSonson/sonsonQuartzDemo/QuartzContentView.m</string>
 		</dict>
 		<dict>
 			<key>$class</key>
@@ -5927,11 +5918,11 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>523</integer>
+					<integer>522</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>524</integer>
+					<integer>523</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -5939,14 +5930,13 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>525</integer>
+					<integer>524</integer>
 				</dict>
 			</array>
 		</dict>
-		<real>322219883.27767998</real>
-		<string>{216, 1660}</string>
-		<string>{365, 887}</string>
-		<string>-layoutAndDrawText</string>
+		<real>322224012.46872503</real>
+		<string>{884, 2041}</string>
+		<string>{179, 0}</string>
 		<string>Xcode.IDEKit.EditorDocument.SourceCode</string>
 		<dict>
 			<key>$class</key>
@@ -5962,7 +5952,7 @@
 			<key>NS.relative</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>529</integer>
+				<integer>527</integer>
 			</dict>
 		</dict>
 		<string>file://localhost/Users/sonson/code/SoftwareDesignSonson/sonsonQuartzDemo/QuartzContentView.m</string>
@@ -5976,7 +5966,7 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>531</integer>
+					<integer>529</integer>
 				</dict>
 			</array>
 		</dict>
@@ -5998,7 +5988,7 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>533</integer>
+					<integer>531</integer>
 				</dict>
 			</array>
 		</dict>
@@ -6012,45 +6002,14 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>534</integer>
+					<integer>532</integer>
 				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>537</integer>
-				</dict>
-			</array>
-		</dict>
-		<dict>
-			<key>$class</key>
-			<dict>
-				<key>CF$UID</key>
-				<integer>92</integer>
-			</dict>
-			<key>NS.keys</key>
-			<array>
-				<dict>
-					<key>CF$UID</key>
-					<integer>387</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>388</integer>
-				</dict>
-			</array>
-			<key>NS.objects</key>
-			<array>
 				<dict>
 					<key>CF$UID</key>
 					<integer>535</integer>
 				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>536</integer>
-				</dict>
 			</array>
 		</dict>
-		<string>IDEEditor</string>
-		<real>520</real>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -6072,11 +6031,42 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>538</integer>
+					<integer>533</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>539</integer>
+					<integer>534</integer>
+				</dict>
+			</array>
+		</dict>
+		<string>IDEEditor</string>
+		<real>726</real>
+		<dict>
+			<key>$class</key>
+			<dict>
+				<key>CF$UID</key>
+				<integer>92</integer>
+			</dict>
+			<key>NS.keys</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>387</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>388</integer>
+				</dict>
+			</array>
+			<key>NS.objects</key>
+			<array>
+				<dict>
+					<key>CF$UID</key>
+					<integer>536</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>537</integer>
 				</dict>
 			</array>
 		</dict>
@@ -6107,12 +6097,12 @@
 			<key>primaryEditorContextNode</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>542</integer>
+				<integer>540</integer>
 			</dict>
 			<key>rootLayoutTreeNode</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>549</integer>
+				<integer>547</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -6131,14 +6121,14 @@
 			<key>documentArchivableRepresentation</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>543</integer>
+				<integer>541</integer>
 			</dict>
 			<key>orientation</key>
 			<integer>0</integer>
 			<key>parent</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>549</integer>
+				<integer>547</integer>
 			</dict>
 		</dict>
 		<dict>
@@ -6160,7 +6150,7 @@
 			<key>IdentifierPath</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>544</integer>
+				<integer>542</integer>
 			</dict>
 			<key>IndexOfDocumentIdentifier</key>
 			<dict>
@@ -6178,15 +6168,15 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
+					<integer>543</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
+					<integer>544</integer>
+				</dict>
+				<dict>
+					<key>CF$UID</key>
 					<integer>545</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>546</integer>
-				</dict>
-				<dict>
-					<key>CF$UID</key>
-					<integer>547</integer>
 				</dict>
 			</array>
 		</dict>
@@ -6223,7 +6213,7 @@
 			<key>Identifier</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>548</integer>
+				<integer>546</integer>
 			</dict>
 		</dict>
 		<string>sonsonQuartzDemo</string>
@@ -6236,7 +6226,7 @@
 			<key>children</key>
 			<dict>
 				<key>CF$UID</key>
-				<integer>550</integer>
+				<integer>548</integer>
 			</dict>
 			<key>contentType</key>
 			<integer>0</integer>
@@ -6263,7 +6253,7 @@
 			<array>
 				<dict>
 					<key>CF$UID</key>
-					<integer>542</integer>
+					<integer>540</integer>
 				</dict>
 			</array>
 		</dict>
