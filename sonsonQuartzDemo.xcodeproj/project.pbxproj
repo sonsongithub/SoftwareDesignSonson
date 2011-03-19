@@ -16,6 +16,7 @@
 		142C8555132F47180029EB85 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 142C8553132F47180029EB85 /* MainWindow.xib */; };
 		142C8558132F47180029EB85 /* sonsonQuartzDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 142C8557132F47180029EB85 /* sonsonQuartzDemoViewController.m */; };
 		142C855B132F47180029EB85 /* sonsonQuartzDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 142C8559132F47180029EB85 /* sonsonQuartzDemoViewController.xib */; };
+		147FAE681334E4790010EC55 /* SimplePopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 147FAE671334E4790010EC55 /* SimplePopupView.m */; };
 		149BA6AE132F480B0060C110 /* QuartzContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 149BA6AD132F480B0060C110 /* QuartzContentView.m */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +35,8 @@
 		142C8556132F47180029EB85 /* sonsonQuartzDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sonsonQuartzDemoViewController.h; sourceTree = "<group>"; };
 		142C8557132F47180029EB85 /* sonsonQuartzDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sonsonQuartzDemoViewController.m; sourceTree = "<group>"; };
 		142C855A132F47180029EB85 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/sonsonQuartzDemoViewController.xib; sourceTree = "<group>"; };
+		147FAE661334E4790010EC55 /* SimplePopupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePopupView.h; sourceTree = "<group>"; };
+		147FAE671334E4790010EC55 /* SimplePopupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePopupView.m; sourceTree = "<group>"; };
 		149BA6AC132F480B0060C110 /* QuartzContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuartzContentView.h; sourceTree = "<group>"; };
 		149BA6AD132F480B0060C110 /* QuartzContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuartzContentView.m; sourceTree = "<group>"; usesTabs = 1; };
 /* End PBXFileReference section */
@@ -91,6 +94,8 @@
 				142C8548132F47180029EB85 /* Supporting Files */,
 				149BA6AC132F480B0060C110 /* QuartzContentView.h */,
 				149BA6AD132F480B0060C110 /* QuartzContentView.m */,
+				147FAE661334E4790010EC55 /* SimplePopupView.h */,
+				147FAE671334E4790010EC55 /* SimplePopupView.m */,
 			);
 			path = sonsonQuartzDemo;
 			sourceTree = "<group>";
@@ -170,6 +175,7 @@
 				142C8552132F47180029EB85 /* sonsonQuartzDemoAppDelegate.m in Sources */,
 				142C8558132F47180029EB85 /* sonsonQuartzDemoViewController.m in Sources */,
 				149BA6AE132F480B0060C110 /* QuartzContentView.m in Sources */,
+				147FAE681334E4790010EC55 /* SimplePopupView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
