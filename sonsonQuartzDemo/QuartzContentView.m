@@ -19,6 +19,40 @@
     return self;
 }
 
+- (void)layoutAndDrawText {
+	CGContextRef context = UIGraphicsGetCurrentContext();
+	
+	// parameters
+	CGPoint p = CGPointMake(30, 30);
+	float width = 200;
+	float height = 480;
+	float fontSize = 20;
+	
+	NSString *str = @"Hello, world. Do you like iOS programming? 初めまして！iOSプログラミングはお好きですか？";
+	UIColor *yellow = [UIColor yellowColor];
+	UIColor *black = [UIColor blackColor];	
+	UIFont *font = [UIFont boldSystemFontOfSize:fontSize];
+	
+	// measure size of string
+	CGSize strSize = [str sizeWithFont:font constrainedToSize:CGSizeMake(width, height) lineBreakMode:UILineBreakModeCharacterWrap];
+	CGRect renderingRect;
+	renderingRect.origin = p;
+	renderingRect.size = strSize;
+	
+	// render background color
+	[yellow setFill];
+	CGContextFillRect(context, renderingRect);
+	
+	// render text
+	[black setFill];
+	[str drawInRect:renderingRect withFont:font lineBreakMode:UILineBreakModeCharacterWrap];
+}
+
+- (void)drawText {
+	NSString *str = @"Hello, world.";
+	[str drawAtPoint:CGPointMake(10, 10) withFont:[UIFont boldSystemFontOfSize:12]];
+}
+
 - (void)drawRectWithShadow {
 	CGContextRef context = UIGraphicsGetCurrentContext();
 	CGContextSaveGState(context);
@@ -57,6 +91,8 @@
 
 - (void)drawGradientColor {
 	CGContextRef context = UIGraphicsGetCurrentContext();
+	
+	// make gradient color
 	CGColorSpaceRef space = CGColorSpaceCreateDeviceRGB();
 	CGFloat colors[] = {
 		155.0 / 255.0, 155.0 / 255.0, 155.0 / 255.0, 1.0,
@@ -65,9 +101,11 @@
 	CGGradientRef gradient = CGGradientCreateWithColorComponents(space, colors, NULL, sizeof(colors)/(sizeof(colors[0])*4));
 	CGColorSpaceRelease(space);
 	
-//	CGContextDrawLinearGradient(context, gradient, CGPointMake(100, 100), CGPointMake(100, 200),kCGGradientDrawsBeforeStartLocation|kCGGradientDrawsAfterEndLocation);
+	// linear gradient
+	CGContextDrawLinearGradient(context, gradient, CGPointMake(100, 100), CGPointMake(100, 200),kCGGradientDrawsBeforeStartLocation|kCGGradientDrawsAfterEndLocation);
 	
-	CGContextDrawRadialGradient(context, gradient, CGPointMake(100, 100), 0, CGPointMake(100, 100), 100, 0);
+	// radial gradient
+	// CGContextDrawRadialGradient(context, gradient, CGPointMake(100, 100), 0, CGPointMake(100, 100), 100, 0);
 	
 	CGGradientRelease(gradient);
 }
@@ -130,7 +168,9 @@
 
 - (void)drawRect:(CGRect)rect {
 	// Drawing code
-	[self drawGradientRhombus];
+	[self layoutAndDrawText];
+//	[self drawText];
+//	[self drawGradientRhombus];
 //	[self drawGradientColor];
 //	[self testClipping];
 //	[self drawRectWithShadow];
