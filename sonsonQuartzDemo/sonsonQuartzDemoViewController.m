@@ -8,8 +8,6 @@
 
 #import "sonsonQuartzDemoViewController.h"
 
-#import "SimplePopupView.h"
-
 @implementation sonsonQuartzDemoViewController
 
 - (void)dealloc
@@ -31,16 +29,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	
-	SimplePopupView *v = [[SimplePopupView alloc] initWithString:@"Hello, world!"];
-	[self.view addSubview:v];
-	
-	CGRect r = v.frame;
-	r.origin.x = 100;
-	r.origin.y = 100;
-	[v setFrame:r];
-	
-	[v release];
 }
 
 - (void)viewDidUnload
