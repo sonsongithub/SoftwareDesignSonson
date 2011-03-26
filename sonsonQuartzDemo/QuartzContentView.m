@@ -74,6 +74,20 @@
 	CGContextRestoreGState(context);
 }
 
+// draw round corner rect with shadow
+- (void)drawRectWithShadow2 {
+	CGContextRef context = UIGraphicsGetCurrentContext();
+	CGContextSaveGState(context);
+	UIColor *blackColor = [UIColor blackColor];
+	CGContextSetShadowWithColor (context, CGSizeMake(0, 2), 5.0, [blackColor CGColor]);
+	
+	[[UIColor colorWithRed:1 green:0.6 blue:0.6 alpha:1] setFill];
+	[[UIColor colorWithRed:0 green:0 blue:1 alpha:1] setStroke];
+	[self drawRoundCornerRect:CGRectMake(110, 180, 100, 100) mode:kCGPathFillStroke radius:15];
+	
+	CGContextRestoreGState(context);
+}
+
 // clipping
 - (void)testClipping {
 	CGContextRef context = UIGraphicsGetCurrentContext();
@@ -187,7 +201,7 @@
 // draw
 - (void)drawRect:(CGRect)rect {
 	// Drawing code
-	switch(8) {
+	switch(3) {
 		case 0:
 			[self drawSimpleQuad];
 			break;
@@ -195,10 +209,13 @@
 			[self testAddArcToPoint];
 			break;
 		case 2:
+			[[UIColor colorWithRed:1 green:0.6 blue:0.6 alpha:1] setFill];
+			[[UIColor colorWithRed:0 green:0 blue:1 alpha:1] setStroke];
 			[self drawRoundCornerRect:CGRectMake(110, 180, 100, 100) mode:kCGPathFillStroke radius:15];
 			break;
 		case 3:
-			[self drawRectWithShadow];
+			//[self drawRectWithShadow];
+			[self drawRectWithShadow2];
 			break;
 		case 4:
 			[self testClipping];

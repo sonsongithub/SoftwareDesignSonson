@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1490638E133E37A400D9E0A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1490638D133E37A400D9E0A0 /* UIKit.framework */; };
+		14906390133E37A400D9E0A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1490638F133E37A400D9E0A0 /* Foundation.framework */; };
+		14906392133E37A400D9E0A0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14906391133E37A400D9E0A0 /* CoreGraphics.framework */; };
+		14906398133E37A400D9E0A0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14906396133E37A400D9E0A0 /* InfoPlist.strings */; };
+		1490639B133E37A400D9E0A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1490639A133E37A400D9E0A0 /* main.m */; };
+		1490639E133E37A400D9E0A0 /* popupSimpleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1490639D133E37A400D9E0A0 /* popupSimpleAppDelegate.m */; };
+		149063A1133E37A400D9E0A0 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1490639F133E37A400D9E0A0 /* MainWindow.xib */; };
+		149063A4133E37A400D9E0A0 /* popupSimpleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 149063A3133E37A400D9E0A0 /* popupSimpleViewController.m */; };
+		149063A7133E37A500D9E0A0 /* popupSimpleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 149063A5133E37A500D9E0A0 /* popupSimpleViewController.xib */; };
+		149063AF133E37C900D9E0A0 /* SimplePopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 149063AE133E37C900D9E0A0 /* SimplePopupView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14906389133E37A400D9E0A0 /* popupSimple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = popupSimple.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1490638D133E37A400D9E0A0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1490638F133E37A400D9E0A0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		14906391133E37A400D9E0A0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		14906395133E37A400D9E0A0 /* popupSimple-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "popupSimple-Info.plist"; sourceTree = "<group>"; };
+		14906397133E37A400D9E0A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		14906399133E37A400D9E0A0 /* popupSimple-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "popupSimple-Prefix.pch"; sourceTree = "<group>"; };
+		1490639A133E37A400D9E0A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1490639C133E37A400D9E0A0 /* popupSimpleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = popupSimpleAppDelegate.h; sourceTree = "<group>"; };
+		1490639D133E37A400D9E0A0 /* popupSimpleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = popupSimpleAppDelegate.m; sourceTree = "<group>"; };
+		149063A0133E37A400D9E0A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		149063A2133E37A400D9E0A0 /* popupSimpleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = popupSimpleViewController.h; sourceTree = "<group>"; };
+		149063A3133E37A400D9E0A0 /* popupSimpleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = popupSimpleViewController.m; sourceTree = "<group>"; };
+		149063A6133E37A500D9E0A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/popupSimpleViewController.xib; sourceTree = "<group>"; };
+		149063AD133E37C900D9E0A0 /* SimplePopupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePopupView.h; sourceTree = "<group>"; };
+		149063AE133E37C900D9E0A0 /* SimplePopupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePopupView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14906386133E37A400D9E0A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1490638E133E37A400D9E0A0 /* UIKit.framework in Frameworks */,
+				14906390133E37A400D9E0A0 /* Foundation.framework in Frameworks */,
+				14906392133E37A400D9E0A0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1490637E133E37A400D9E0A0 = {
+			isa = PBXGroup;
+			children = (
+				14906393133E37A400D9E0A0 /* popupSimple */,
+				1490638C133E37A400D9E0A0 /* Frameworks */,
+				1490638A133E37A400D9E0A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1490638A133E37A400D9E0A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14906389133E37A400D9E0A0 /* popupSimple.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1490638C133E37A400D9E0A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1490638D133E37A400D9E0A0 /* UIKit.framework */,
+				1490638F133E37A400D9E0A0 /* Foundation.framework */,
+				14906391133E37A400D9E0A0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		14906393133E37A400D9E0A0 /* popupSimple */ = {
+			isa = PBXGroup;
+			children = (
+				149063AD133E37C900D9E0A0 /* SimplePopupView.h */,
+				149063AE133E37C900D9E0A0 /* SimplePopupView.m */,
+				1490639C133E37A400D9E0A0 /* popupSimpleAppDelegate.h */,
+				1490639D133E37A400D9E0A0 /* popupSimpleAppDelegate.m */,
+				1490639F133E37A400D9E0A0 /* MainWindow.xib */,
+				149063A2133E37A400D9E0A0 /* popupSimpleViewController.h */,
+				149063A3133E37A400D9E0A0 /* popupSimpleViewController.m */,
+				149063A5133E37A500D9E0A0 /* popupSimpleViewController.xib */,
+				14906394133E37A400D9E0A0 /* Supporting Files */,
+			);
+			path = popupSimple;
+			sourceTree = "<group>";
+		};
+		14906394133E37A400D9E0A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14906395133E37A400D9E0A0 /* popupSimple-Info.plist */,
+				14906396133E37A400D9E0A0 /* InfoPlist.strings */,
+				14906399133E37A400D9E0A0 /* popupSimple-Prefix.pch */,
+				1490639A133E37A400D9E0A0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14906388133E37A400D9E0A0 /* popupSimple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 149063AA133E37A500D9E0A0 /* Build configuration list for PBXNativeTarget "popupSimple" */;
+			buildPhases = (
+				14906385133E37A400D9E0A0 /* Sources */,
+				14906386133E37A400D9E0A0 /* Frameworks */,
+				14906387133E37A400D9E0A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = popupSimple;
+			productName = popupSimple;
+			productReference = 14906389133E37A400D9E0A0 /* popupSimple.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14906380133E37A400D9E0A0 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 14906383133E37A400D9E0A0 /* Build configuration list for PBXProject "popupSimple" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1490637E133E37A400D9E0A0;
+			productRefGroup = 1490638A133E37A400D9E0A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14906388133E37A400D9E0A0 /* popupSimple */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14906387133E37A400D9E0A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14906398133E37A400D9E0A0 /* InfoPlist.strings in Resources */,
+				149063A1133E37A400D9E0A0 /* MainWindow.xib in Resources */,
+				149063A7133E37A500D9E0A0 /* popupSimpleViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14906385133E37A400D9E0A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1490639B133E37A400D9E0A0 /* main.m in Sources */,
+				1490639E133E37A400D9E0A0 /* popupSimpleAppDelegate.m in Sources */,
+				149063A4133E37A400D9E0A0 /* popupSimpleViewController.m in Sources */,
+				149063AF133E37C900D9E0A0 /* SimplePopupView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		14906396133E37A400D9E0A0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14906397133E37A400D9E0A0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1490639F133E37A400D9E0A0 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				149063A0133E37A400D9E0A0 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		149063A5133E37A500D9E0A0 /* popupSimpleViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				149063A6133E37A500D9E0A0 /* en */,
+			);
+			name = popupSimpleViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		149063A8133E37A500D9E0A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		149063A9133E37A500D9E0A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		149063AB133E37A500D9E0A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "popupSimple/popupSimple-Prefix.pch";
+				INFOPLIST_FILE = "popupSimple/popupSimple-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		149063AC133E37A500D9E0A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "popupSimple/popupSimple-Prefix.pch";
+				INFOPLIST_FILE = "popupSimple/popupSimple-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14906383133E37A400D9E0A0 /* Build configuration list for PBXProject "popupSimple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				149063A8133E37A500D9E0A0 /* Debug */,
+				149063A9133E37A500D9E0A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		149063AA133E37A500D9E0A0 /* Build configuration list for PBXNativeTarget "popupSimple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				149063AB133E37A500D9E0A0 /* Debug */,
+				149063AC133E37A500D9E0A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14906380133E37A400D9E0A0 /* Project object */;
+}
