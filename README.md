@@ -1,0 +1,1 @@
+SoftwareDesign 2011/06=======![sample image](http://sonson.jp/wp/wp-content/uploads/2011/04/softwareDesign201106.png)Blog======= * [sonson.jp][]Sorry, Japanese only....Dependency======= * none[sonson.jp]: http://sonson.jp

@@ -201,7 +201,7 @@
 // draw
 - (void)drawRect:(CGRect)rect {
 	// Drawing code
-	switch(3) {
+	switch(8) {
 		case 0:
 			[self drawSimpleQuad];
 			break;
